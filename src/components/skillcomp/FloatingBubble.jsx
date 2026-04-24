@@ -8,7 +8,7 @@ const dx = (Math.random() - 0.2) * 100;
 const dy = (Math.random() - 0.2) * 100;
   return (
   <motion.div
-  className="absolute md:w-32 md:h-32 w-18 h-18  rounded-full bg-[#0b1220] border border-cyan-400/20 shadow-lg flex flex-col items-center justify-center"
+  className="absolute md:w-25 md:h-25 w-13 h-13  rounded-full bg-[#0b1220] border border-cyan-400/20 shadow-lg flex flex-col items-center justify-center"
   style={{left:x,top:y}}
   animate={{
     x:[0,dx ,0,dy,0],

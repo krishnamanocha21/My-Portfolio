@@ -34,14 +34,14 @@ export default function HomeComp() {
 
 
 
-
 const professions = [
-"Frontend Developer",
-"Backend Developer",
-"DSA Enthusiast",
-"Tech Explorer",
-"AI Enthusiast"
-];
+    "Full Stack Developer",
+    "GenAI Architect",
+    "Next.js / React",
+    "PostgreSQL",
+    "Cybersecurity",
+    "Web Sockets"
+  ];
 
 
 const infoCards = [
@@ -111,8 +111,11 @@ const infoCards = [
             </motion.span>
             </h1>
             <p className="typing-effect text-xl">
-            Frontend Developer | Backend Developer | DSA Enthusiast &nbsp;&nbsp;
+            FullStack Developer | Generative AI  | DSA Enthusiast &nbsp;&nbsp;
           </p>
+          <p className="text-lg font-medium text-yellow-400/90">
+              🏆 2x National Hackathon Winner/Finalist
+            </p>
 
           <div className="flex flex-wrap gap-4 mt-5">
             {professions.map((p) => (
@@ -196,11 +199,10 @@ const infoCards = [
         </div>
         
     </section>
-    //target="_blank", the new tab can access your page's window.opener, which can create security risks.
-    //noopener -> Prevents the new page from being able to control or access your page.
-    //noreferrer -> Also removes the referrer header so the new site doesn't know where the user came from
+    
   );
 }
+
 
 //filter is a CSS property used to apply visual effects to images, icons, and elements.
 

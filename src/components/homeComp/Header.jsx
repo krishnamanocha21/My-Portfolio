@@ -9,13 +9,15 @@ const Header = () => {
     { name: 'Home', link: '/' },
     { name: 'Projects', link: '/projects' },
     { name: 'Skills', link: '/skills' },
-    { name: 'Gallery', link: '/gallery' },
     
-    { name: 'Certificates', link: '/certificates' },
+    
+    { name: 'Certificates', link: '/certificate' },
     
     { name: 'Resume', link: '/resume' },
     { name: 'About Me', link: '/about' },
+    // { name: 'Gallery', link: '/gallery' },
     { name: 'Contact', link: '/contact' },
+
   ];
 
   return (

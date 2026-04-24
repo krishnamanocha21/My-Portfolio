@@ -66,7 +66,7 @@ const AboutMe = () => {
                 <strong>Maharaja Surajmal Institute if Technology</strong>, Delhi
               </p>
               <p className="text-gray-400 text-sm">2024 – 2028 (Pursuing)</p>
-              <p className="text-gray-400 text-sm">Current GPA: 8.93</p>
+              <p className="text-gray-400 text-sm">Current GPA: 8.68</p>
             </div>
           </motion.div>
 

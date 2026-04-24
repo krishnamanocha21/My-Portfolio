@@ -6,6 +6,8 @@ import Skills from "./Pages/Skills"
 import { Route ,Routes } from "react-router-dom"
 import Projects from "./Pages/Projects"
 import Gallery from "./Pages/Gallery"
+import Resume from "./Pages/Resume"
+import Certificate from "./Pages/Certificate"
 function App() {
   
 
@@ -21,6 +23,8 @@ function App() {
       <Route path="skills" element={<Skills/>}/>
       <Route path="projects" element={<Projects/>}/>
       <Route path="gallery" element={<Gallery/>}/>
+      <Route path="resume" element={<Resume/>}/>
+      <Route path="certificate" element={<Certificate/>}/>
      </Routes>
      </main>
      <Footer/>

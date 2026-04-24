@@ -3,13 +3,21 @@ import {motion} from "framer-motion"
 import { Github, ExternalLink } from 'lucide-react'
 function ProjectComp() {
 const PROJECTS =[
+  {
+      title: 'NexusChat - Real-time Chat',
+      desc: 'A robust real-time communication platform featuring private messaging, dynamic user search, and instant notifications with a seamless, interactive UI.',
+      ss: '/nexus-chat.png', // Ensure this file exists in your public folder
+      tech: ['MongoDB', 'Express.js', 'React', 'Node.js', 'Socket.io'],
+      live: 'https://nexus-chat-website.vercel.app/', // Update with your actual live link
+      code: 'https://github.com/krishnamanocha21/NexusChat'
+    },
     {
     title: 'SEREIN ,The E-Commerce website ',
     desc: 'SEREIN is a modern, minimal e-commerce website designed for a smooth, elegant shopping experience with responsive design and a clean UI.',
     ss: './serein.png',
     tech: ['React', 'Express.js','MongoDB', 'Tailwind CSS'],
     live: 'https://serein-skincare-yf93-c8gjtb92o-clash2106s-projects.vercel.app/',
-    code: 'https://github.com/clash2106/serein-skincare'
+    code: 'https://github.com/krishnamanocha21/serein-skincare'
     },
     {
   title: 'Portfolio Website',
@@ -17,7 +25,7 @@ const PROJECTS =[
   ss: '/portfolioai.png',
   tech: ['React', 'Framer Motion', 'Tailwind CSS'],
   live: 'https://portfolio-website-nine-tau-77.vercel.app/',
-  code: 'https://github.com/clash2106/portfolio-website'
+  code: 'https://github.com/krishnamanocha21/portfolio-website'
   },
   
 ]
@@ -80,7 +88,7 @@ const PROJECTS =[
         {/* Buttons */}
         <div className="absolute  flex gap-2 md:left-42 bottom-4">
           <motion.a
-            href={p.github}
+            href={p.code}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm bg-gray-900 px-3 py-2 rounded-lg text-white 
