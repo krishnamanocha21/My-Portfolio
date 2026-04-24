@@ -8,6 +8,7 @@ import Projects from "./Pages/Projects"
 import Gallery from "./Pages/Gallery"
 import Resume from "./Pages/Resume"
 import Certificate from "./Pages/Certificate"
+import Contact from "./Pages/Contact"
 function App() {
   
 
@@ -25,6 +26,7 @@ function App() {
       <Route path="gallery" element={<Gallery/>}/>
       <Route path="resume" element={<Resume/>}/>
       <Route path="certificate" element={<Certificate/>}/>
+      <Route path="contact" element={<Contact/>}/>
      </Routes>
      </main>
      <Footer/>

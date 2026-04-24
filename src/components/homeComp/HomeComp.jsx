@@ -60,7 +60,7 @@ const infoCards = [
   ];
 
   const quickLinks = [
-    { img: "/github.png", title: "GitHub", link: "https://github.com/clash2106" },
+    { img: "/github.png", title: "GitHub", link: "https://github.com/krishnamanocha21" },
     { img: "/linkedin.png", title: "LinkedIn", link: "https://www.linkedin.com/in/krishna-manocha-12433a317/" },
     { img: "/gmail.png", title: "Email", link: "https://mail.google.com/mail/?view=cm&to=krishnamanocha2@gmail.com" },
     { img: "/whatsapp.png", title: "WhatsApp", link: "https://wa.me/+917056649569" },
